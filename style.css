@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.topnav{
+    overflow: hidden;
+}
+
+.top-ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline;
+}
+
+a{
+    padding: 8px;
+}
+
