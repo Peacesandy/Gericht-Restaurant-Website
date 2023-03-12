@@ -54,11 +54,44 @@ a{
     align-items: center;
 }
 
+.parent-image{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
 .first-food{
+    position: absolute;
+    bottom: 60px;
+    left: 500px;
+    border: 5px ;
     width: 350px;
     height: 400px;
     margin-left: 200px;
+    z-index: 2;
 }
+
+.rectangle1-img{
+    position: relative;
+    bottom: 3px;
+    right: 50px;
+    border: 1px;
+    margin-left: 400px;
+    width: 260px;
+    height: 270px;
+}
+
+.rectangle-img{
+    position: relative;
+    top: -80px;
+    left: 125px;
+    border: 1px;
+    margin-left: 100px;
+    width: 260px;
+    height: 240px;
+}
+
+
 
 .scroll-img{
     margin-left: 70px;
