@@ -47,15 +47,32 @@ a{
     margin-right: 10px;
 }
 
-.second-section{
-    margin-top: 80px;
-    display: flex;
-    flex-direction: row;
+.second-container{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
     align-items: center;
 }
 
 .first-food{
     width: 350px;
     height: 400px;
-    margin-left: 300px;
+    margin-left: 200px;
+}
+
+.scroll-img{
+    margin-left: 70px;
+    margin-top: 350px;
+}
+
+.writeups{
+    margin-left: 150px;
+}
+
+.vector{
+    margin-left: 150px;
+}
+
+.explore-button{
+    margin-left: 150px;
 }
