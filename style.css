@@ -149,5 +149,16 @@ a{
     border: 1px solid;
 }
 
+.scroll-text{
+    padding-top: 5px;
+    margin-left: 1160px;
+    color: #DCCA87;
+}
+
+.scroll-date{
+    text-align: center;
+    font-size: 10px;
+}
+
 /* Second section of the website */
 
