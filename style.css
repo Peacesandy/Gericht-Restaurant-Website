@@ -19,18 +19,43 @@ body{
 
 
 li{
-    display: inline;
+    display: inline-block;
+    padding: 10px 9px 10px 9px;
 }
 
 a{
-    padding: 0px;
     margin-top: 0px;
-    padding-left: 25px;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-left: 70px;
     cursor: pointer;
     color: white;
+    font-size: small;
+    text-decoration: none;
 }
 
 
 .nav-logo{
-    margin-top: 0px;
+    margin-top: 30px;
+    float: left;
+    display: inline;
+    padding-left: 25px;
+}
+
+.vector-5{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.second-section{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.first-food{
+    width: 350px;
+    height: 400px;
+    margin-left: 300px;
 }
