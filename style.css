@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300&display=swap'); */
+
+
 body{
     background-color: black;
     color: white;
@@ -6,6 +12,8 @@ body{
     background-size: cover;
     font-family: sans-serif;
 }
+
+/* Navbar */
 
 .topnav{
     overflow: hidden;
@@ -46,6 +54,8 @@ a{
     margin-top: 10px;
     margin-right: 10px;
 }
+
+/* First section of the website */
 
 .second-container{
     margin-top: 60px;
@@ -113,7 +123,13 @@ a{
     font-weight: 700;
     font-size: 30px;
     color: #DCCA87;
-    line-height: 50px;
+    line-height: 60px;
+}
+
+.writeups3{
+    color: #AAAA;
+    font-size: 10px;
+    line-height: 18px;
 }
 
 
@@ -124,5 +140,11 @@ a{
 
 .explore-button{
     margin-left: 0px;
+    background-color: #DCCA87 ;
+    padding: 10px 8px;
+    cursor: pointer;
+    border: 1px solid;
 }
+
+/* Second section of the website */
 
