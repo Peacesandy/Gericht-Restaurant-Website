@@ -162,3 +162,11 @@ a{
 
 /* Second section of the website */
 
+#About{
+    background-image: url(Background.png);
+}
+
+
+.third-container{
+    background-image: url(Background.png);
+}
