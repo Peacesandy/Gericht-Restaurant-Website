@@ -16,6 +16,8 @@ body{
     background-size: cover;
 }
 
+
+
 /* Navbar */
 
 .topnav{
@@ -162,11 +164,14 @@ a{
 
 /* Second section of the website */
 
-#About{
+.About{
     background-image: url(Background.png);
+    background-size: cover;
+}
+
+.knife-image{
+    width: 100px;
+    height: 600px;
 }
 
 
-.third-container{
-    background-image: url(Background.png);
-}
