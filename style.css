@@ -165,13 +165,36 @@ a{
 /* Second section of the website */
 
 .About{
-    background-image: url(Background.png);
+    background-image: url(Background.png)  ;
+    background-position: 100px 100px;
     background-size: cover;
 }
 
-.knife-image{
-    width: 100px;
-    height: 600px;
+.third-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.third-image{
+    position: relative;
+}
+
+.G-image{
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    padding-top: 150px;
+}
+
+
+.knife-image{
+    position: relative;
+    width: 80px;
+    height: 600px;
+    margin-left: 150px;
+}
+
+
 
 
