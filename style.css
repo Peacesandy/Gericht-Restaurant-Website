@@ -166,7 +166,6 @@ a{
 
 .About{
     background-image: url(Background.png)  ;
-    background-size: cover;
 }
 
 .third-container{
@@ -182,8 +181,7 @@ a{
 .G-image{
     position: absolute;
     width: 250px;
-    height: 450px;
-    padding-top: 100px;
+    height: 300px;
 }
 
 
@@ -192,22 +190,21 @@ a{
     width: 60px;
     height: 650px;
     margin-left: 100px;
-    padding-top: 60px;
-    padding-bottom: 80px;
+    top: -150px;
+    margin-bottom: 20px;
 }
 
 .third-text1{
+    padding-right: 300px;
     position: relative;
-    padding-right: 700px;
-    bottom: -400px;
-
+    bottom: -250px;
+    z-index: 2;
 }
 
 .third-text2{
     position: absolute;
-    top: 1150px;
-    padding-left: 800px;
-    text-align: center;
+    top: 985px;
+    padding-left: 650px;
 }
 
 
