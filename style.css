@@ -249,7 +249,17 @@ a{
 }
 
 
+.menu-text{
+    justify-content: center;
+    text-align: center;
+}
 
+.menu-image{
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
 
 
 
